@@ -16,5 +16,12 @@ namespace Praktika
         {
             InitializeComponent();
         }
+
+        private void openToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            openFileDialog1.Filter = "Файлы pdf|*.pdf";
+            openFileDialog1.ShowDialog();
+            axAcroPDF1.LoadFile(openFileDialog1.FileName);
+        }
     }
 }
