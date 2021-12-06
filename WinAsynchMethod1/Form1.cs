@@ -85,7 +85,6 @@ namespace WinAsynchMethod1
         {
             MessageBox.Show("Работа кипит!!!");
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
