@@ -80,6 +80,7 @@ namespace WinAsynchMethod
             summdelegate.BeginInvoke(a, b, cb, summdelegate);
         }
 
+
         private void btnWork_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show("Работа кипит!!!");
