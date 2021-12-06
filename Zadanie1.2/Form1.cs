@@ -55,5 +55,10 @@ namespace Zadanie1._2
             this.btnCenter_AW_SLIDE.Invalidate();
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
