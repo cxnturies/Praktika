@@ -48,6 +48,7 @@ namespace WinAsynchMethod1
             this.btnRun.Size = new System.Drawing.Size(75, 23);
             this.btnRun.TabIndex = 0;
             this.btnRun.Text = "Сумма";
+            this.toolTip1.SetToolTip(this.btnRun, "Sum");
             this.btnRun.UseVisualStyleBackColor = true;
             this.btnRun.Click += new System.EventHandler(this.btnRun_Click_1);
             // 
@@ -58,6 +59,7 @@ namespace WinAsynchMethod1
             this.btnWork.Size = new System.Drawing.Size(75, 23);
             this.btnWork.TabIndex = 1;
             this.btnWork.Text = "Работа";
+            this.toolTip1.SetToolTip(this.btnWork, "Start work");
             this.btnWork.UseVisualStyleBackColor = true;
             this.btnWork.Click += new System.EventHandler(this.btnWork_Click_1);
             // 
@@ -85,6 +87,7 @@ namespace WinAsynchMethod1
             this.txbA.Name = "txbA";
             this.txbA.Size = new System.Drawing.Size(100, 20);
             this.txbA.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.txbA, "For input integer A");
             // 
             // txbB
             // 
@@ -92,6 +95,7 @@ namespace WinAsynchMethod1
             this.txbB.Name = "txbB";
             this.txbB.Size = new System.Drawing.Size(100, 20);
             this.txbB.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.txbB, "For input integer B");
             // 
             // button1
             // 
