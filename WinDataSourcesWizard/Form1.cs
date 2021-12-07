@@ -27,6 +27,8 @@ namespace WinDataSourcesWizard
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "rBProductDataSet.Товары". При необходимости она может быть перемещена или удалена.
+            this.товарыTableAdapter.Fill(this.rBProductDataSet.Товары);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "rBProductDataSet.Поставщики". При необходимости она может быть перемещена или удалена.
             this.поставщикиTableAdapter.Fill(this.rBProductDataSet.Поставщики);
 
