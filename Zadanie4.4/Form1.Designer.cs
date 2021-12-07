@@ -31,9 +31,9 @@ namespace Zadanie4._4
         {
             this.поставщикиTableAdapter1 = new Zadanie4._4.RBProductDataSetTableAdapters.ПоставщикиTableAdapter();
             this.rbProductDataSet1 = new Zadanie4._4.RBProductDataSet();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.FamtextBox = new System.Windows.Forms.TextBox();
+            this.NametextBox = new System.Windows.Forms.TextBox();
+            this.SectiontextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,26 +51,26 @@ namespace Zadanie4._4
             this.rbProductDataSet1.DataSetName = "RBProductDataSet";
             this.rbProductDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // textBox1
+            // FamtextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(80, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.FamtextBox.Location = new System.Drawing.Point(80, 6);
+            this.FamtextBox.Name = "FamtextBox";
+            this.FamtextBox.Size = new System.Drawing.Size(100, 20);
+            this.FamtextBox.TabIndex = 0;
             // 
-            // textBox2
+            // NametextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(80, 32);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.NametextBox.Location = new System.Drawing.Point(80, 32);
+            this.NametextBox.Name = "NametextBox";
+            this.NametextBox.Size = new System.Drawing.Size(100, 20);
+            this.NametextBox.TabIndex = 1;
             // 
-            // textBox3
+            // SectiontextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(80, 58);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.SectiontextBox.Location = new System.Drawing.Point(80, 58);
+            this.SectiontextBox.Name = "SectiontextBox";
+            this.SectiontextBox.Size = new System.Drawing.Size(100, 20);
+            this.SectiontextBox.TabIndex = 2;
             // 
             // label1
             // 
@@ -127,9 +127,9 @@ namespace Zadanie4._4
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SectiontextBox);
+            this.Controls.Add(this.NametextBox);
+            this.Controls.Add(this.FamtextBox);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.rbProductDataSet1)).EndInit();
@@ -142,9 +142,9 @@ namespace Zadanie4._4
 
         private RBProductDataSetTableAdapters.ПоставщикиTableAdapter поставщикиTableAdapter1;
         private RBProductDataSet rbProductDataSet1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox FamtextBox;
+        private System.Windows.Forms.TextBox NametextBox;
+        private System.Windows.Forms.TextBox SectiontextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
