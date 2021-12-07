@@ -17,5 +17,14 @@ namespace Zadanie4._4
             InitializeComponent();
         }
 
+        private BindingSource sotrBindingSource;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            поставщикиTableAdapter1.Fill(rbProductDataSet1.Поставщики);
+            sotrBindingSource = new BindingSource(rbProductDataSet1, "Поставщики");
+            FamtextBox.DataBindings.Add("Text", sotrBindingSource, "Код поставщика");
+            NametextBox.DataBindings.Add("Text", sotrBindingSource, "Поставщик");
+            SectiontextBox.DataBindings.Add("Text", sotrBindingSource, "Телефон");
+        }
     }
 }
