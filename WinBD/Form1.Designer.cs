@@ -34,6 +34,11 @@ namespace WinBD
             this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.oleDbSelectCommand1 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbInsertCommand1 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbUpdateCommand1 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbDeleteCommand1 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbDataAdapter1 = new System.Data.OleDb.OleDbDataAdapter();
             this.SuspendLayout();
             // 
             // oleDbCommand1
@@ -73,6 +78,14 @@ namespace WinBD
             this.button2.TabIndex = 2;
             this.button2.Text = "Click here for Exercise 2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // oleDbDataAdapter1
+            // 
+            this.oleDbDataAdapter1.DeleteCommand = this.oleDbDeleteCommand1;
+            this.oleDbDataAdapter1.InsertCommand = this.oleDbInsertCommand1;
+            this.oleDbDataAdapter1.SelectCommand = this.oleDbSelectCommand1;
+            this.oleDbDataAdapter1.UpdateCommand = this.oleDbUpdateCommand1;
             // 
             // Form1
             // 
@@ -95,6 +108,11 @@ namespace WinBD
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
+        private System.Data.OleDb.OleDbCommand oleDbSelectCommand1;
+        private System.Data.OleDb.OleDbCommand oleDbInsertCommand1;
+        private System.Data.OleDb.OleDbCommand oleDbUpdateCommand1;
+        private System.Data.OleDb.OleDbCommand oleDbDeleteCommand1;
+        private System.Data.OleDb.OleDbDataAdapter oleDbDataAdapter1;
     }
 }
 
