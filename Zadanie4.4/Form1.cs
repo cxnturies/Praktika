@@ -26,5 +26,15 @@ namespace Zadanie4._4
             NametextBox.DataBindings.Add("Text", sotrBindingSource, "Поставщик");
             SectiontextBox.DataBindings.Add("Text", sotrBindingSource, "Телефон");
         }
+
+        private void Previousbutton_Click(object sender, EventArgs e)
+        {
+            sotrBindingSource.MovePrevious();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            sotrBindingSource.MoveNext();
+        }
     }
 }

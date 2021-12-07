@@ -107,6 +107,7 @@ namespace Zadanie4._4
             this.Previousbutton.TabIndex = 6;
             this.Previousbutton.Text = "Previous";
             this.Previousbutton.UseVisualStyleBackColor = true;
+            this.Previousbutton.Click += new System.EventHandler(this.Previousbutton_Click);
             // 
             // NextButton
             // 
@@ -116,6 +117,7 @@ namespace Zadanie4._4
             this.NextButton.TabIndex = 7;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // Form1
             // 
